@@ -6,6 +6,10 @@ for people to read and review those contracts more easily.
 
 This repository also contains official addresses of Axie Infinity's contracts.
 
+*Note: Some contract logics are not fully decentralized as of now.
+After the development is done, all those logics will be locked
+so no changes can be made and full decentralization would be achieved.*
+
 ### Presale contract
 
 This contract holds data for the Presale.
