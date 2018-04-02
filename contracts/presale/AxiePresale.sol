@@ -1,9 +1,9 @@
 pragma solidity ^0.4.19;
 
 
-import "zeppelin-solidity/contracts/lifecycle/Pausable.sol";
-import "zeppelin-solidity/contracts/math/SafeMath.sol";
-import "zeppelin-solidity/contracts/ownership/HasNoEther.sol";
+import "zeppelin/contracts/lifecycle/Pausable.sol";
+import "zeppelin/contracts/math/SafeMath.sol";
+import "zeppelin/contracts/ownership/HasNoEther.sol";
 
 
 contract AxiePresale is HasNoEther, Pausable {
