@@ -2,7 +2,7 @@ pragma solidity ^0.4.19;
 
 
 interface AxieSpawningManager {
-	function isSpawningAllowed(uint256 _genes, address _owner) external returns (bool);
+  function isSpawningAllowed(uint256 _genes, address _owner) external returns (bool);
   function isRebirthAllowed(uint256 _axieId, uint256 _genes) external returns (bool);
 }
 
